@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AkilliReklamYonetim</string>
+    <string name="Email">Değiştir</string>
+    <string name="Parola">Çıkış</string>
+    <string name="Open">Open</string>
+    <string name="Çıkış">Çıkış Yap</string>
+    <string name="Close">Close</string>
+    <string name="kullaniciSil">Kullanıcıyı Sil</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">info@akillireklamyonetimi.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>
+
+
+
+

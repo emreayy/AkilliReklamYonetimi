@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edt_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Firma Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Firma Lat"
+        android:inputType="textPersonName"
+        android:numeric="integer|decimal"
+        app:layout_constraintStart_toStartOf="@+id/edt_ad"
+        app:layout_constraintTop_toBottomOf="@+id/edt_ad" />
+
+    <EditText
+        android:id="@+id/edt_long"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Firma Long"
+        android:inputType="textPersonName"
+        android:numeric="integer|decimal"
+        app:layout_constraintStart_toStartOf="@+id/edt_lat"
+        app:layout_constraintTop_toBottomOf="@+id/edt_lat" />
+
+    <EditText
+        android:id="@+id/edt_sure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Kampanya Süresi"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edt_long"
+        app:layout_constraintTop_toBottomOf="@+id/edt_long" />
+
+    <EditText
+        android:id="@+id/edt_icerik"
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginBottom="186dp"
+        android:ems="10"
+        android:hint="Kampanya İçerik"
+        android:inputType="textLongMessage|text"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_ekle"
+        app:layout_constraintStart_toStartOf="@+id/edt_sure"
+        app:layout_constraintTop_toBottomOf="@+id/edt_lat" />
+
+    <Button
+        android:id="@+id/btn_ekle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_cik"
+        app:layout_constraintStart_toStartOf="@+id/kategori" />
+
+    <Button
+        android:id="@+id/btn_cik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="Çık"
+        app:layout_constraintEnd_toEndOf="@+id/kategori"
+        app:layout_constraintTop_toBottomOf="@+id/kategori" />
+
+    <EditText
+        android:id="@+id/kategori"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="189dp"
+        android:ems="10"
+        android:hint="Kategori"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/edt_icerik" />
+
+</android.support.constraint.ConstraintLayout>

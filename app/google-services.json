@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "232347687292",
+    "firebase_url": "https://akillireklam.firebaseio.com",
+    "project_id": "akillireklam",
+    "storage_bucket": "akillireklam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232347687292:android:345a720ec0508811",
+        "android_client_info": {
+          "package_name": "com.eayoky.akillireklamyonetimi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232347687292-5tj6mrbcqagrv2b556oe4m6isjqg48ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYy0s06lO44pinsnodUON4a5SXYI5yr2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232347687292-5tj6mrbcqagrv2b556oe4m6isjqg48ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
