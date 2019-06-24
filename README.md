@@ -1,0 +1,2 @@
+# AkilliReklamYonetimi
+akilli reklam yönetimi
